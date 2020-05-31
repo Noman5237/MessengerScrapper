@@ -1,0 +1,20 @@
+
+* Table of Class
+
+** Users
+
+  |-----------+-----+----------------+----------------------+--------+------------|
+  | Data      | Tag | Class          | Attributes           | Fields | Comments   |
+  |-----------+-----+----------------+----------------------+--------+------------|
+  | User Name | div | _4ldz _1t_r _p | data-tooltip-content |        | Use filter |
+  |-----------+-----+----------------+----------------------+--------+------------|
+
+** Message
+
+  |----------------+------+----------------+----------------------+--------+----------|
+  | Data           | Tag  | Class          | Attributes           | Fields | Comments |
+  |----------------+------+----------------+----------------------+--------+----------|
+  | Message Group  | div  | _1t_p clearfix |                      |        |          |
+  | Text Message   | span | _3oh- _58nk    |                      | text   |          |
+  | Message Sender | div  | _4ldz _1t_r _p | data-tooltip-content |        |          |
+  |                |      |                |                      |        |          |
