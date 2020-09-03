@@ -1,20 +1,37 @@
 
 * Table of Class
 
-** Users
+** Text Message
 
-  |-----------+-----+----------------+----------------------+--------+------------|
-  | Data      | Tag | Class          | Attributes           | Fields | Comments   |
-  |-----------+-----+----------------+----------------------+--------+------------|
-  | User Name | div | _4ldz _1t_r _p | data-tooltip-content |        | Use filter |
-  |-----------+-----+----------------+----------------------+--------+------------|
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
+  | Data              | Tag  | Class                                  | Attributes           | Fields | Comments                   |
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
+  | Message Group     | div  | _1t_p clearfix                         |                      |        | Use as list                |
+  | Message Sender    | div  | _4ldz _1t_r _p                         | data-tooltip-content |        | Use filter                 |
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
+  | Message List      | div  | *_3058 _ui9 _hh7 _6ybn _s1- _52mr _3oh-* |                      |        | Regex Pattern, attrs contains time              |
+  | Has Reactions     | div  | _5z-5 + @(Message List)                |                      |        |                            |
+  | Is Reply          | div  | @(Message List) + _6uum                |                      |        |                            |
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
+  | Message           | span | _3oh- _58nk                            |                      | text   | Parse for Emoji, Tag, Link |
+  | Message           | span | _aok _7i2m                             |                      | text   | Parse for Emoji, Tag, Link |
+  | Emoji             | img  | _1ift * img                        |                      |        | Regex                           |
+  | Tag               | a    | _ih- _p                                |                      | text   | Remove @                   |
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
+  | Reactions Preview | div  | _8rnv preview                          |                      |        |                            |
+  | Reactors          | div  | _7ef9                                  | data-tooltip-content |        | @(Reactions)[0]            |
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
+  | Reactions List    | div  | _aou                                   |                      |        | Has Reaction Childrens     |
+  | Reaction Index    | span | _4kf5                                  | style z-index        |        |                            |
+  | Reaction          | img  | _1ift _5m3a img                        | alt                  |        |                            |
+  | No Of Reactions   | span | _4kf5 _4kf6                            |                      | text   |                            |
+  |-------------------+------+----------------------------------------+----------------------+--------+----------------------------|
 
-** Message
+** Multimedia Media Content
 
-  |----------------+------+----------------+----------------------+--------+----------|
-  | Data           | Tag  | Class          | Attributes           | Fields | Comments |
-  |----------------+------+----------------+----------------------+--------+----------|
-  | Message Group  | div  | _1t_p clearfix |                      |        |          |
-  | Text Message   | span | _3oh- _58nk    |                      | text   |          |
-  | Message Sender | div  | _4ldz _1t_r _p | data-tooltip-content |        |          |
-  |                |      |                |                      |        |          |
+  |------------+-------+-------+------------+--------+---------------|
+  | Data       | Tag   | Class | Attributes | Fields | Comments      |
+  |------------+-------+-------+------------+--------+---------------|
+  | Media Content | _3058 _15gf|        |               | Has @(Multimedia)
+  | Multimedia | _3zvs |       |            |        | Regex Pattern |
+  |------------+-------+-------+------------+--------+---------------|

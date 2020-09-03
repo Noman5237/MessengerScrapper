@@ -1,0 +1,13 @@
+prefix=P:/TEMP/AppliedProgramming/WebScrapping/FacebookGroupMessages/eye/Library
+exec_prefix=P:/TEMP/AppliedProgramming/WebScrapping/FacebookGroupMessages/eye/Library
+libdir=P:/TEMP/AppliedProgramming/WebScrapping/FacebookGroupMessages/eye/Library/lib
+sharedlibdir=P:/TEMP/AppliedProgramming/WebScrapping/FacebookGroupMessages/eye/Library/lib
+includedir=P:/TEMP/AppliedProgramming/WebScrapping/FacebookGroupMessages/eye/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
