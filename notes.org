@@ -35,3 +35,19 @@
   | Media Content | _3058 _15gf|        |               | Has @(Multimedia)
   | Multimedia | _3zvs |       |            |        | Regex Pattern |
   |------------+-------+-------+------------+--------+---------------|
+
+** Titles
+ 0. Top 10 persons who talks the most
+ 1. Top 10 persons who replies the most
+ 2. Top 10 persons who gets the most reactions
+  a. Gets most haha
+  b. Gets most Wow
+  c. Gets most love
+  d ...
+ 3. Top 10 persons who reacts the most
+ 4. Top 10 persons who gets tagged most
+ 5. Top 10 persons who tags others most
+ 6. Top 10 persons who uses most emojis
+ 7. Top 10 persons who uses more multimedia contents
+ 9. Top 10 whose activity is spread around all day
+ 10. Are there any other categories I can look for??
