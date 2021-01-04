@@ -1,3 +1,5 @@
 __pycache__
-./.idea
+.idea
 eye/
+resources/
+generated/
